@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="696.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itec220.fxlabs.WinnerController">
+   <children>
+      <Button fx:id="playAgain" alignment="CENTER" contentDisplay="CENTER" layoutX="248.0" layoutY="464.0" mnemonicParsing="false" onAction="#switchToEmptyGameBoard" prefHeight="84.0" prefWidth="199.0" style="-fx-background-color: yellowgreen;" text="PLAY AGAIN">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="winnerImage" fitHeight="301.0" fitWidth="436.0" layoutX="140.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/winner.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="winnerLabel" alignment="CENTER" layoutX="219.0" layoutY="283.0" prefHeight="69.0" prefWidth="142.0">
+         <font>
+            <Font name="Arial" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
